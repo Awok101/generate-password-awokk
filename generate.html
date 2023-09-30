@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PASSWORD GENERATOR sesi 8 semester 1 </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<!--styleing CSS MANUAL START-->
+  <style>
+
+  </style>
+<!--styleing CSS MANUAL END-->
+</head>
+<body>
+	<div class="container d-flex justify-content-center align-items-center min-vh-100">
+	  <div class="d-flex flex-column">
+<!--JUDUL DIATAS PASSWORD-->
+	    <h1 class="generator"> PASSWORD GENERATOR </h1>
+	    <div class="d-flex flex-column gap-2">
+<!--UNTUK TEXT PANJANG PASSWORD DI ATAS FORM-->
+	      <label for="passwordLength" class="text-uppercase fw-bold">PANJANG PASSWORD</label>
+	      <input class="form-control form-control-lg" id="passwordLength" type="number" placeholder="Enter your password length"/>
+<!--JUDUL TEXT PASSOWORD DI ATAS FORM-->
+	      <label for="password" class="text-uppercase fw-bold">PASSWORD</label>
+	      <input type="password" class="form-control form-control-lg" id="password" placeholder="Enter your password"/>
+<!-- bila mau ada button mata untuk password maka harus menggunakan type="password" dan placeholder="enter your password" -->
+	      <button class="btn btn-dark text-uppercase fw-bold btn-lg mt-2">Generate Password</button>
+	      <button class="btn btn-primary text-uppercase fw-bold btn-lg mt-2">Save Password</button>
+	      </div>
+	  </div>
+	</div>
+	        <!-- SCRIPT JS KITA-->
+<script src="js/index.js"></script>
+<script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
